@@ -58,7 +58,6 @@ def classificar_angulos(a, b, c):
     if c > maior:
         maior = c
 
-    # Encontrar os outros dois lados
     if maior == a:
         lado1, lado2 = b, c
     elif maior == b:
